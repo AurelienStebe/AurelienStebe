@@ -1,0 +1,92 @@
+\documentclass[11pt, a4paper, sans, color, final]{moderncv}
+\usepackage[firstyear=1999, lastyear=2020]{moderntimeline}
+\usepackage[scale=0.8]{geometry}
+\usepackage[utf8]{inputenc}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\tlenablemonths{}
+\nopagenumbers{}
+
+\name{Aurélien}{STÉBÉ}
+\title{Expert Software Engineer}
+\address{Ch. de Grand Route}{97128 Goyave}{Guadeloupe, France}
+\phone{+590~690~75~62~77}
+\email{Aurelien.Stebe@gmail.com}
+\social[github][github.com/AurelienStebe]{github.com/AurelienStebe}
+\photo[44pt][0.4pt]{Pic_2009.jpg}
+
+\tikzset{
+  tl@startyear/.style={
+      font=\scriptsize,
+      name=tl@startyear,
+      inner xsep=0pt,
+      anchor=north,
+  }
+}
+
+\tikzset{
+  tl@endyear/.style={
+      font=\scriptsize,
+      name=tl@endyear,
+      inner xsep=0pt,
+      anchor=south,
+  }
+}
+
+\begin{document}
+\makecvtitle
+
+\section{Experience}
+\tlcventry{2018/9}{0}{GladeJS (Open Source Software project)}{}{}{[\link{https://github.com/gladejs/gladejs}]}{
+\begin{itemize}
+\item Creator and maintainer of the first Marko, Rollup \& Eleventy based front-end framework.
+\end{itemize}}
+
+\tlcventry{2017/6}{2018/8}{Studio BeDesign (remote)}{}{Strasbourg, France}{[\link{https://studio-bedesign.com}]}{
+\begin{itemize}
+\item Migrated a large custom E-Commerce web site from Python-Django to PHP-WordPress.
+\item Tutored co-workers in the design and implementation of WordPress sites for businesses.
+\end{itemize}}
+
+\tlcventry{2012/11}{2017/5}{Exelcia IT}{}{Baie-Mahault, Guadeloupe, France}{[\link{https://www.exelcia-it.com}]}{
+\begin{itemize}
+\item Implementation of data analysis tools and server administration for Airline companies.
+\item Maintained while progressively evolving the customer data platform of Orange Caraïbe.
+\end{itemize}}
+
+\tlcventry{2010/6}{2012/10}{Telespazio (VEGA UK)}{}{Toulouse, France}{[\link{https://www.telespazio.com}]}{
+\begin{itemize}
+\item Development of the Operations Management Environment for ESA Sentinel-1.
+\end{itemize}}
+
+\tlcventry{2003/6}{2010/5}{European Space Agency (ESA)}{}{Madrid, Spain}{[\link{https://www.esa.int}]}{
+\begin{itemize}
+\item Development and maintenance of the first official Euro-VO Service Registry.
+\item Development of the ESA-VO Data Access Layer ToolKit and its specification.
+\item Vice-Chairman of the Virtual Observatory Registry Working Group (2007-2010).
+\end{itemize}}
+
+\section{Education}
+\tlcventry{2001/9}{2003/6}{Ingénieur ISEP, option Télécoms \& Réseaux (NTIS)}
+{\newline Institut Supérieur d'Électronique de Paris}{France}{}
+{Graduate school of Software Engineering, Telecommunication, Networks \& Electronics}
+\tlcventry{1999/9}{2001/6}{Maths Supérieures \& Maths Spéciales, option MPSI}
+{\newline Lycée Albert Schweitzer}{Mulhouse, France}{}
+{``Classes Préparatoires aux Grandes Écoles'' (prep school for the engineering curriculum)}
+\tldatecventry{1999}{Bac Scientifique, option Mathématiques}{Lycée Blaise Pascal}{Colmar, France}{}{}
+
+\section{Expertise}
+\cvdoubleitem{\textbf{Languages}}{Java, Node, TypeScript, PHP}{\textbf{Front-End}}{Marko, Vue, HTML, CSS, JS}
+\cvdoubleitem{\textbf{Web Services}}{REST and SOAP API design}{\textbf{JS Tooling}}{Rollup, PostCSS, ESLint, Jest}
+\cvdoubleitem{\textbf{Databases}}{Relational, NoSQL \& Elastic}{\textbf{Frameworks}}{Eleventy, WordPress, Grails, ...}
+
+\section{Languages}
+\cvdoubleitem{\textbf{French}}{\cvskill{5} native tongue}{\textbf{Spanish}}{\cvskill{4} lived 7y in Madrid}
+\cvdoubleitem{\textbf{English}}{\cvskill{4} fluent since 2002}{\textbf{German}}{\cvskill{2} studied 9y in school}
+
+\section{Interests}
+\cvdoubleitem{\textbf{Sports}}{judo (brown belt), swimming}{\textbf{Hobbies}}{gardening, meditation, sailing}
+
+\clearpage
+\end{document}

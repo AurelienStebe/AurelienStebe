@@ -33,4 +33,4 @@ Wanna have a chat ? Lately, you may find me around [Discord](https://discord.com
 - [Eleventy](https://discord.gg/GBkBy9u), furiously taking notes on the recurring questions & issues
 - [Party-Corgi](https://www.partycorgi.com), sampling the ambiance and getting ready to participate
 
-Finally, I _am_ currently looking for remote employment, so please consult my [**resume**](./RESUME.md).
+Finally, I _am_ currently looking for remote employment, so please consult my [**resume**](./Resume.pdf).
