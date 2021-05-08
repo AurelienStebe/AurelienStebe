@@ -1,6 +1,6 @@
 \documentclass[11pt, a4paper, sans, color, final]{moderncv}
-\usepackage[firstyear=1999, lastyear=2020]{moderntimeline}
-\usepackage[scale=0.8]{geometry}
+\usepackage[firstyear=1999, lastyear=2021]{moderntimeline}
+\usepackage[scale=0.8, margin=0.8cm]{geometry}
 \usepackage[utf8]{inputenc}
 
 \moderncvstyle{classic}
@@ -9,84 +9,106 @@
 \nopagenumbers{}
 
 \name{Aurélien}{STÉBÉ}
-\title{Expert Software Engineer}
-\address{Ch. de Grand Route}{97128 Goyave}{Guadeloupe, France}
-\phone{+590~690~75~62~77}
+\title{Senior Fullstack Software Engineer}
+\address{French Nationality}{}{Guadeloupe (UTC -4)}
 \email{Aurelien.Stebe@gmail.com}
 \social[github][github.com/AurelienStebe]{github.com/AurelienStebe}
-\photo[44pt][0.4pt]{Pic_2009.jpg}
+\social[linkedin][linkedin.com/in/Aurelien-Stebe-6a709856]{/Aurelien-Stebe-6a709856}
+
+\newcommand{\website}[2][]{\textcolor{color1}{\link[#1]{#2}}}
+\setlength{\hintscolumnwidth}{0.15\textwidth}
 
 \tikzset{
   tl@startyear/.style={
-      font=\scriptsize,
-      name=tl@startyear,
-      inner xsep=0pt,
-      anchor=north,
+    font=\scriptsize,
+    name=tl@startyear,
+    inner xsep=0pt,
+    anchor=north,
   }
 }
 
 \tikzset{
   tl@endyear/.style={
-      font=\scriptsize,
-      name=tl@endyear,
-      inner xsep=0pt,
-      anchor=south,
+    font=\scriptsize,
+    name=tl@endyear,
+    inner xsep=0pt,
+    anchor=south,
   }
 }
 
 \begin{document}
-\makecvtitle
+\makecvhead
+
+\centering
+\begin{minipage}{0.88\textwidth}
+  \quotestyle{
+    Creative software developer with over 15 years of expertise in Web technologies, from back to front.
+    Passionate about Web performance and accessibility, avid source code spelunker and wild bug hunter.
+    Motivated by smart collaborative teams with a high bar for quality and an attention to details.
+    Curious, life-long learner from the Open Source community, finally trying to give back with
+    \textbf{\website[GladeJS]{https://github.com/gladejs/gladejs}}.
+  }
+\end{minipage}\\[1.5em]
 
 \section{Experience}
-\tlcventry{2018/9}{0}{GladeJS (Open Source Software project)}{}{}{[\link{https://github.com/gladejs/gladejs}]}{
-\begin{itemize}
-\item Creator and maintainer of the first Marko, Rollup \& Eleventy based front-end framework.
-\end{itemize}}
+\tlcventry{2018/9}{0}{GladeJS (Open Source Software project)}{}{}{\website{https://github.com/gladejs/gladejs}}{
+  Author and maintainer of the first Marko, Rollup \& Eleventy based dual SSG/SSR front-end framework,\\
+  with a heavy focus on Web performance and versatility. It aims at being a universal Web Site optimizer.
+}
 
-\tlcventry{2017/6}{2018/8}{Studio BeDesign (remote)}{}{Strasbourg, France}{[\link{https://studio-bedesign.com}]}{
-\begin{itemize}
-\item Migrated a large custom E-Commerce web site from Python-Django to PHP-WordPress.
-\item Tutored co-workers in the design and implementation of WordPress sites for businesses.
-\end{itemize}}
+\vspace{0.8em}
+\tlcventry{2017/6}{2018/8}{Studio BeDesign (remote)}{}{Strasbourg, France}{\website{https://studio-bedesign.com}}{
+  Helped to establish a local Web Agency by migrating a large legacy Django E-Commerce codebase to WordPress,\\
+  developing a simple Docker solution for deployment \& hosting, tutoring the Graphic Designer on Web Design\\
+  and my co-workers on general Web Development, the WordPress ecosystem and modern HTML / CSS.
+}
 
-\tlcventry{2012/11}{2017/5}{Exelcia IT}{}{Baie-Mahault, Guadeloupe, France}{[\link{https://www.exelcia-it.com}]}{
-\begin{itemize}
-\item Implementation of data analysis tools and server administration for Airline companies.
-\item Maintained while progressively evolving the customer data platform of Orange Caraïbe.
-\end{itemize}}
+\vspace{0.8em}
+\tlcventry{2012/11}{2017/5}{Exelcia IT}{}{Baie-Mahault, Guadeloupe, France}{\website{https://www.exelcia-it.com}}{
+  Joined a local team of Expert Java consultants, which more than tripled in 5 years.
+  \vspace{0.4em}
+  \begin{itemize}
+    \item Participated to the challenging merge of two large customer support platforms (Orange Caraïbe \& Réunion).
+    \item Specialized in Unix Server administration and Travel Data analysis tooling for multiple Airline companies.
+  \end{itemize}
+}
 
-\tlcventry{2010/6}{2012/10}{Telespazio (VEGA UK)}{}{Toulouse, France}{[\link{https://www.telespazio.com}]}{
-\begin{itemize}
-\item Development of the Operations Management Environment for ESA Sentinel-1.
-\end{itemize}}
+\vspace{0.8em}
+\tlcventry{2010/6}{2012/10}{Telespazio (VEGA UK)}{}{Toulouse, France}{\website{https://www.telespazio.com}}{
+  Responsible for the specification and implementation of the Operations Management Environment for the ESA\\
+  Sentinel-1 satellite, a unified Grails WebPortal including Jira for tickets, OCS for inventory and KnowledgeTree\\
+  for document management, meeting directly with the client to establish taxonomies and incident workflows.
+}
 
-\tlcventry{2003/6}{2010/5}{European Space Agency (ESA)}{}{Madrid, Spain}{[\link{https://www.esa.int}]}{
-\begin{itemize}
-\item Development and maintenance of the first official Euro-VO Service Registry.
-\item Development of the ESA-VO Data Access Layer ToolKit and its specification.
-\item Vice-Chairman of the Virtual Observatory Registry Working Group (2007-2010).
-\end{itemize}}
+\vspace{0.8em}
+\tlcventry{2003/6}{2010/5}{European Space Agency (ESA)}{}{Madrid, Spain}{\website{https://www.esa.int}}{
+  Actively contributed to the \website[``International Virtual Observatory Alliance'' (IVOA)]{https://ivoa.net} efforts to
+  create standards\\and implementations for the open and seamless publication, discovery and analysis of astronomical data.
+  \vspace{0.4em}
+  \begin{itemize}
+    \item Traveled with a team of 8 all over the world, giving talks in bi-annual conferences, leading workshops.
+    \item Worked in autonomy on the Resource Registry Working Group, nominated Vice-Chairman for 3 years.
+    \item Released the first fully Harvestable and Searchable Registry, adopted as the \website[official Euro-VO Registry]{http://registry.euro-vo.org}.
+    \item Introduced the team to XML/XSL/XSD tools, shortening the Registry and other projects by 3 months.
+  \end{itemize}
+}
 
 \section{Education}
-\tlcventry{2001/9}{2003/6}{Ingénieur ISEP, option Télécoms \& Réseaux (NTIS)}
-{\newline Institut Supérieur d'Électronique de Paris}{France}{}
-{Graduate school of Software Engineering, Telecommunication, Networks \& Electronics}
-\tlcventry{1999/9}{2001/6}{Maths Supérieures \& Maths Spéciales, option MPSI}
-{\newline Lycée Albert Schweitzer}{Mulhouse, France}{}
-{``Classes Préparatoires aux Grandes Écoles'' (prep school for the engineering curriculum)}
-\tldatecventry{1999}{Bac Scientifique, option Mathématiques}{Lycée Blaise Pascal}{Colmar, France}{}{}
+\tlcventry{1999/9}{2003/6}{Master of Computer Science}{ISEP~--~Institut Supérieur d'Électronique de Paris}{France}{}
+{Graduate school of Software Engineering, Telecommunication, Networks \& Electronics, \website{https://en.isep.fr}.}
 
-\section{Expertise}
-\cvdoubleitem{\textbf{Languages}}{Java, Node, TypeScript, PHP}{\textbf{Front-End}}{Marko, Vue, HTML, CSS, JS}
-\cvdoubleitem{\textbf{Web Services}}{REST and SOAP API design}{\textbf{JS Tooling}}{Rollup, PostCSS, ESLint, Jest}
-\cvdoubleitem{\textbf{Databases}}{Relational, NoSQL \& Elastic}{\textbf{Frameworks}}{Eleventy, WordPress, Grails, ...}
+\section{Tech Skills}
+\cvdoubleitem{\textbf{Languages}}{Java, NodeJS, TypeScript, Ruby, PHP}{\textbf{Front-End}}{Marko, Vue, Sass, modern HTML/CSS}
+\cvdoubleitem{\textbf{Web Services}}{REST and SOAP services API design}{\textbf{JS Tooling}}{Rollup, Babel, PostCSS, Jest, Express}
+\cvdoubleitem{\textbf{Databases}}{Relational, NoSQL, Elastic \& GraphQL}{\textbf{Frameworks}}{Eleventy, Vite, Nuxt, Grails, WordPress}
 
-\section{Languages}
-\cvdoubleitem{\textbf{French}}{\cvskill{5} native tongue}{\textbf{Spanish}}{\cvskill{4} lived 7y in Madrid}
-\cvdoubleitem{\textbf{English}}{\cvskill{4} fluent since 2002}{\textbf{German}}{\cvskill{2} studied 9y in school}
+\section{Soft Skills}
+\cvdoubleitem{\textbf{Trilingual}}{Fluent in English, French and Spanish}{\textbf{Public Speaker}}{Conferences, presentations, workshops}
+\cvdoubleitem{\textbf{Organized}}{Advanced tasks and time management}{\textbf{Autonomous}}{Projects from requirements to release}
+\cvdoubleitem{\textbf{Architect}}{Jamstack, Event-Driven, Microservices}{\textbf{Knowledgeable}}{Expansive solutions landscape visibility}
 
 \section{Interests}
-\cvdoubleitem{\textbf{Sports}}{judo (brown belt), swimming}{\textbf{Hobbies}}{gardening, meditation, sailing}
+\cvdoubleitem{\textbf{Currently}}{Horticulture, historical criticism}{\textbf{Formerly}}{Sailing, aviation, judo, apiculture}
 
 \clearpage
 \end{document}
