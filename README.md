@@ -1,6 +1,10 @@
 ## Hi, my name is Aurélien Stébé and <br/> I am a recovering Enterprise Java developer.
 
-<br/>
+<br/><hr/>
+
+🚨 &nbsp; First off, I _am_ currently looking for remote employment, so please consult my [**Resume**](./Resume.pdf) &nbsp; 🚨
+
+<hr/><br/>
 
 My career started at the back of the back-end of Web development with SQL and Unix. \
 I slowly made my way to the front, building websites using Groovy, Python, Wordpress, \
@@ -32,5 +36,4 @@ Wanna have a chat ? Lately, you may find me around [Discord](https://discord.com
 - [Marko](https://discord.gg/RFGxYGs), discussing the future Marko v6.0 syntax with the maintainers
 - [Eleventy](https://discord.gg/GBkBy9u), furiously taking notes on the recurring questions & issues
 - [Party-Corgi](https://www.partycorgi.com), sampling the ambiance and getting ready to participate
-
-Finally, I _am_ currently looking for remote employment, so please consult my [**resume**](./Resume.pdf).
+- [Vite Land](https://discord.com/invite/aYVNktYeEB), looking for clues on how to integrate ViteJS into GladeJS
