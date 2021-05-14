@@ -20,7 +20,7 @@ Marko and its corresponding ... nothing ?!? Well, I _was_ looking for a project 
 
 <br/>
 
-This is the origin story of the [**GladeJS**](https://github.com/gladejs/gladejs) : Rollup, Marko and Eleventy sitting in a tree ...
+This is the origin story of the [**GladeJS**](https://github.com/gladejs/gladejs) : Marko, Rollup and Eleventy sitting in a tree ...
 
 <br/>
 
