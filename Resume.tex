@@ -1,5 +1,5 @@
 \documentclass[11pt, a4paper, sans, color, final]{moderncv}
-\usepackage[firstyear=1999, lastyear=2021]{moderntimeline}
+\usepackage[firstyear=1999, lastyear=2025]{moderntimeline}
 \usepackage[scale=0.8, margin=0.8cm]{geometry}
 \usepackage[utf8]{inputenc}
 
@@ -8,12 +8,17 @@
 \tlenablemonths{}
 \nopagenumbers{}
 
+\colorlet{quotecolor}{color1}
+\colorlet{sectioncolor}{color1}
+\colorlet{bodyrulecolor}{color1}
+\colorlet{firstnamecolor}{color1!50}
+
 \name{Aurélien}{STÉBÉ}
-\title{Senior Fullstack Software Engineer}
-\address{France~-~Guadeloupe (UTC -4)}
+\title{Freelance Tech Lead Software Engineer}
+\address{France~-~Guadeloupe (UTC -4)\\\\}
 \email{Aurelien.Stebe@gmail.com}
 \social[github][github.com/AurelienStebe]{GitHub.com/AurelienStebe}
-\social[twitter][twitter.com/AurelienStebe]{Twitter.com/AurelienStebe}
+% \social[twitter][twitter.com/AurelienStebe]{Twitter.com/AurelienStebe}
 \social[linkedin][linkedin.com/in/Aurelien-Stebe]{LinkedIn.com/AurelienStebe}
 
 \newcommand{\website}[2][]{\textcolor{color1}{\link[#1]{#2}}}
@@ -41,75 +46,76 @@
 \makecvhead
 
 \centering
-\begin{minipage}{0.88\textwidth}
+\begin{minipage}{0.888\textwidth}
   \quotestyle{
-    Creative software developer with over 15 years of expertise in Web technologies, from back to front.
-    Passionate about Web performance and accessibility, avid source code spelunker and wild bug hunter.
-    Motivated by smart collaborative teams with a high bar for quality and an attention to details.
-    Curious, life-long learner from the Open Source community, finally trying to give back with
-    \textbf{\website[GladeJS]{https://github.com/gladejs/gladejs}}.
+    Creative software developer with over 20 years of expertise in web technologies, from back to front.
+    Adept at leading diverse remote teams and managing end-to-end projects delivering scalable solutions.
+    Committed to smart collaborative technical leadership, meticulous quality, and relentless bug hunting.
+    Passionate about cutting-edge technologies, modernizing legacy systems, and generative AI integrations.
   }
 \end{minipage}\\[1.5em]
 
 \section{Experience}
-\tlcventry{2018/9}{0}{GladeJS (Open Source Software project)}{}{}{\website{https://github.com/gladejs/gladejs}}{
-  Author and maintainer of the first Marko, Rollup \& Eleventy based dual SSG/SSR front-end framework,\\
-  with a heavy focus on Web performance and versatility. It aims at being a universal Web Site optimizer.
-}
-
-\vspace{0.8em}
-\tlcventry{2017/6}{2018/8}{Studio BeDesign (remote)}{}{Strasbourg, France}{\website{https://studio-bedesign.com}}{
-  Helped to establish a local Web Agency by migrating a large legacy Django E-Commerce codebase to WordPress,\\
-  developing a simple Docker solution for deployment \& hosting, tutoring the Graphic Designer on Web Design\\
-  and my co-workers on general Web Development, the WordPress ecosystem and modern HTML / CSS.
-}
-
-\vspace{0.8em}
-\tlcventry{2012/11}{2017/5}{Exelcia IT}{}{Baie-Mahault, Guadeloupe, France}{\website{https://www.exelcia-it.com}}{
-  Joined a local team of Expert Java consultants, which more than tripled in 5 years.
-  \vspace{0.4em}
+\tlcventry{2020/9}{0}{Freelance Tech Lead Engineer}{(via Toptal)}{}{\website{https://www.toptal.com/resume/aurelien-stebe}}{
   \begin{itemize}
-    \item Participated to the challenging merge of two large customer support platforms (Orange Caraïbe \& Réunion).
-    \item Specialized in Unix Server administration and Travel Data analysis tooling for multiple Airline companies.
+    \item Managed full project lifecycles, from requirements analysis and feature planning to secure cloud deployments.
+    \item Developed technical architectures for diverse web application projects using modern JavaScript frameworks.
+    \item Engineered robust back-end systems with Python and Ruby, integrating advanced APIs and external services.
+    \item Created and maintaining \website[``Gladdis'']{https://github.com/AurelienStebe/Gladdis}, an innovative open-source Obsidian plugin to support agentic AI natively.
   \end{itemize}
 }
 
 \vspace{0.8em}
-\tlcventry{2010/6}{2012/10}{Telespazio (VEGA UK)}{}{Toulouse, France}{\website{https://www.telespazio.com}}{
-  Responsible for the specification and implementation of the Operations Management Environment for the ESA\\
-  Sentinel-1 satellite, a unified Grails WebPortal including Jira for tickets, OCS for inventory and KnowledgeTree\\
-  for document management, meeting directly with the client to establish taxonomies and incident workflows.
+\tlcventry{2017/6}{2020/9}{Senior Full Stack Principal Engineer}{Studio BeDesign (remote)}{}{\website{https://studio-bedesign.com}}{
+  Established the complete IT infrastructure for a dynamic web agency by orchestrating the seamless
+  migration from a legacy Django eCommerce platform to a custom WordPress solution. Developed a robust
+  Docker-based deployment and hosting process while mentoring team members on modern web design and development.
 }
 
 \vspace{0.8em}
-\tlcventry{2003/6}{2010/5}{European Space Agency (ESA)}{}{Madrid, Spain}{\website{https://www.esa.int}}{
+\tlcventry{2012/9}{2017/6}{Senior Full Stack Software Engineer}{Exelcia IT}{}{\website{https://www.exelcia-it.com}}{
+  Joined an expert Java consultancy serving telecom and airline sectors, which more than tripled in 5 years.
+  \vspace{0.4em}
+  \begin{itemize}
+    \item Participated in the challenging merge of two large customer support platforms (Orange Caraïbes \& Réunion).
+    \item Specialized in Unix Server administration and Travel Data analysis tooling for multiple airline companies.
+  \end{itemize}
+}
+
+\vspace{0.8em}
+\tlcventry{2010/6}{2012/9}{Java Full Stack Software Engineer}{Telespazio (VEGA UK)}{}{\website{https://www.telespazio.com}}{
+  Led the specification and implementation of an Operations Management Environment for ESA's Sentinel-1 mission.
+  Developed a unified Grails-based web portal integrating ticketing (Jira), inventory (OCS), and document
+  management (KnowledgeTree), collaborating closely with clients on taxonomy and workflow design.
+}
+
+\vspace{0.8em}
+\tlcventry{2003/6}{2010/6}{Java Backend Software Engineer}{European Space Agency (ESA)}{}{\website{https://www.esa.int}}{
   Actively contributed to the \website[``International Virtual Observatory Alliance'' (IVOA)]{https://ivoa.net} efforts to
-  create standards\\and implementations for the open and seamless publication, discovery and analysis of astronomical data.
+  create standards\\and implementations for the open and seamless publication, discovery, and analysis of astronomical data.
   \vspace{0.4em}
   \begin{itemize}
     \item Traveled with a team of 8 all over the world, giving talks in bi-annual conferences, leading workshops.
     \item Worked in autonomy on the Resource Registry Working Group, nominated Vice-Chairman for 3 years.
     \item Released the first fully Harvestable and Searchable Registry, adopted as the \website[official Euro-VO Registry]{http://registry.euro-vo.org}.
-    \item Introduced the team to XML/XSL/XSD tools, shortening the Registry and other projects by 3 months.
   \end{itemize}
 }
 
 \section{Education}
 \tlcventry{1999/9}{2003/6}{Master of Computer Science}{ISEP~--~Institut Supérieur d'Électronique de Paris}{France}{}
-{Graduate school of Software Engineering, Telecommunication, Networks \& Electronics, \website{https://en.isep.fr}.}
+{Graduate school of Software Engineering, Telecommunications, Networks \& Electronics, \website{https://en.isep.fr}}
 
 \section{Tech Skills}
-\cvdoubleitem{\textbf{Languages}}{Java, NodeJS, TypeScript, Ruby, PHP}{\textbf{Front-End}}{Marko, Vue, Sass, modern HTML/CSS}
-\cvdoubleitem{\textbf{Web Services}}{REST and SOAP services API design}{\textbf{JS Tooling}}{Rollup, Babel, PostCSS, Jest, Express}
-\cvdoubleitem{\textbf{Databases}}{Relational, NoSQL, Elastic \& GraphQL}{\textbf{Frameworks}}{Eleventy, Vite, Nuxt, Grails, WordPress}
+\cvdoubleitem{\textbf{Languages}}{JavaScript, TypeScript, Python, Ruby}{\textbf{Front-End}}{React, Vue, Svelte, TailwindCSS, Sass}
+\cvdoubleitem{\textbf{Cloud Services}}{Docker, AWS, Azure, GCP, Firebase}{\textbf{JS Tooling}}{Rollup, Webpack, Vitest, Jest, Express}
+\cvdoubleitem{\textbf{Databases}}{Relational, NoSQL, Elastic, GraphQL}{\textbf{Frameworks}}{Next/Nuxt.js, Vite, Django, WordPress}
 
 \section{Soft Skills}
-\cvdoubleitem{\textbf{Trilingual}}{Fluent in English, French and Spanish}{\textbf{Public Speaker}}{Conferences, presentations, workshops}
-\cvdoubleitem{\textbf{Organized}}{Advanced tasks and time management}{\textbf{Autonomous}}{Projects from requirements to release}
-\cvdoubleitem{\textbf{Architect}}{Jamstack, Event-Driven, Microservices}{\textbf{Knowledgeable}}{Expansive solutions landscape visibility}
+\cvdoubleitem{\textbf{Trilingual}}{Fluent in English, French and Spanish}{\textbf{Public Talk}}{Conferences, Presentations, Workshops}
+\cvdoubleitem{\textbf{Architecture}}{Jamstack, Event-Driven, Microservices}{\textbf{Leadership}}{Cross-Functional Technical Knowledge}
 
 \section{Interests}
-\cvdoubleitem{\textbf{Currently}}{Horticulture, historical criticism}{\textbf{Formerly}}{Sailing, aviation, judo, apiculture}
+\cvdoubleitem{\textbf{Hobbies}}{Gardening, sailing, aviation, apiculture}{\textbf{Sports}}{Brazilian Jiu-Jitsu, swimming, judo}
 
 \clearpage
 \end{document}
