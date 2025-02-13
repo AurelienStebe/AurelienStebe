@@ -1,2 +1,4 @@
 .DS_Store
-*.synctex.gz
+!Resume.pdf
+!Resume.tex
+Resume.*
