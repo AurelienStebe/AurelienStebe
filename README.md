@@ -8,5 +8,5 @@ Author and maintainer of [Gladdis](https://github.com/AurelienStebe/Gladdis) –
 
 - **Resume:** [View my Resume (PDF)](https://github.com/AurelienStebe/AurelienStebe/blob/main/Resume.pdf)
 - **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/aurelien-stebe)
-- **TopTal:** [Read my TopTal profile](https://www.toptal.com/resume/aurelien-stebe)
+- **Toptal:** [Read my Toptal profile](https://www.toptal.com/resume/aurelien-stebe)
 - **Email:** [Aurelien.Stebe@gmail.com](mailto:Aurelien.Stebe@gmail.com)
